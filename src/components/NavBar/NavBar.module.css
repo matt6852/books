@@ -1,0 +1,27 @@
+.navContainer{
+ display: flex;
+ flex-direction: column;
+ min-width: 250px;
+ align-self: baseline;
+
+
+}
+a {
+ font-weight: 500;
+ color: #646cff;
+ text-decoration: inherit;
+ margin: 1rem;
+}
+a:hover {
+ color: rgb(160, 182, 127);
+}
+.active{
+ color: greenyellow;
+ text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+ .navContainer {
+   display: none; /* Скрыть навигационный бар */
+ }
+}
